@@ -1,0 +1,160 @@
+.title{
+    font-size: 12vw;
+    font-family: Amatic SC;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    margin-top: 5vh;
+}
+
+
+.sightseens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sightseens-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url('../img/tours.svg')0 0/cover no-repeat;
+    height: 80vw;
+    justify-content: flex-end;
+    margin-bottom: 4vh;
+}
+
+.sightseens-block__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    color: black;
+    margin-left: 6vw;
+    margin-bottom: 1vh;
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+.sightseens-block__description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    color:black;
+    margin-left: 6vw;
+    margin-bottom: 1vh;
+    font-size: 3.7vw;
+    width: 85vw;
+}
+
+.price-button{
+display: flex;
+width: 90%;
+justify-content: space-between;
+margin-left: 5vw;
+margin-right: 5vw;
+align-items: center;
+margin-top: 0;
+}
+
+.price-button__price{
+    font-family: 'Roboto';
+    font-style: normal;
+    color:black;
+    font-size: 6vw;
+    font-weight: 100;
+}
+
+.price-button__button{
+    width: 25vw;
+    height: 8vh;
+    border: 0.3vw solid #c3b182;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color:#C3B182;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3vw;
+    background: transparent;
+}
+
+.gradient{
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(255, 255, 255, 0.67) 23.96%, #EEEEEE 78.65%);
+}
+
+.sightseens-subtext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    color: #9F9F9F;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect{
+    display: flex;
+    width: 90vw;
+    margin-bottom: 10vw;
+}
+
+.connect__img{
+    display: flex;
+    flex-direction: column;
+    width: 4vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 4vw;
+    justify-content: space-between;
+}
+
+.connect__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+}
+
+.connect__iсon1{
+    width: 4vw;
+    margin-bottom: 7vw;
+}
+
+.connect__iсon2{
+    width: 4vw;
+    margin-bottom: 7vw;
+}
+
+.connect__iсon3{
+    width: 4vw;
+    margin-bottom: 3vw;
+}
+
+.connect__map{
+    width: 100vw;
+    margin-bottom: 13vh;
+}
+
+.footer{
+    background-color: black;
+    height: 20vw;
+    display: flex;
+    align-items: center;
+}
+
+.footer__text{
+    color: white;
+    font-size: 4vw;
+    margin-left: 3vw;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
