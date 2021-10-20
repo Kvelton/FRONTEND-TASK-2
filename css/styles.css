@@ -8,13 +8,13 @@
 }
 
 
-.sightseens{
+.tours{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.sightseens-block{
+.tours-block{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -24,7 +24,7 @@
     margin-bottom: 4vh;
 }
 
-.sightseens-block__title{
+.tours-block__title{
     font-family: 'Roboto';
     font-style: normal;
     color: black;
@@ -34,7 +34,7 @@
     font-weight: 500;
 }
 
-.sightseens-block__description{
+.tours-block__description{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
@@ -45,7 +45,7 @@
     width: 85vw;
 }
 
-.price-button{
+.tours-block__price-button{
 display: flex;
 width: 90%;
 justify-content: space-between;
@@ -55,7 +55,7 @@ align-items: center;
 margin-top: 0;
 }
 
-.price-button__price{
+.tours-block__price{
     font-family: 'Roboto';
     font-style: normal;
     color:black;
@@ -63,7 +63,7 @@ margin-top: 0;
     font-weight: 100;
 }
 
-.price-button__button{
+.tours-block__button{
     width: 25vw;
     height: 8vh;
     border: 0.3vw solid #c3b182;
@@ -78,11 +78,11 @@ margin-top: 0;
     background: transparent;
 }
 
-.gradient{
+.tours-block__gradient{
     background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, rgba(255, 255, 255, 0.67) 23.96%, #EEEEEE 78.65%);
 }
 
-.sightseens-subtext{
+.tours-subtext{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
