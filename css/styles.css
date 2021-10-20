@@ -1,5 +1,5 @@
 
-.title{
+.sightseens__title{
     font-size: 9vw;
     font-family: Amatic SC;
     font-style: normal;
@@ -30,6 +30,7 @@
 
 .block__title{
     font-family: 'Roboto';
+    font-weight: 500;
     font-style: normal;
     text-decoration-line: underline;
     color: #585858;
@@ -46,6 +47,7 @@
     margin-left: 6vw;
     margin-bottom: 7vh;
     font-size: 1.7vw;
+    font-weight: 400;
     width: 85vw;
     overflow : hidden;
     text-overflow: ellipsis;
