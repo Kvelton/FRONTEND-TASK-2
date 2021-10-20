@@ -10,30 +10,37 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="welcome-section">
-      <div class="header">
+   <header id="title_list1" class="welcome-section">
+      <header class="header">
          <img src="/img/logo.svg" alt="" class="header__logo">
-         <nav class="menu__body">
+         <nav class="menu">
             <ul class="menu__list">
-               <li><a href="" class="menu__link">Главная</a></li>
-               <li><a href="" class="menu__link">Достопримечательности</a></li>
-               <li><a href="" class="menu__link">Туры</a></li>
-               <li><a href="" class="menu__link">Контакты</a></li>
+               <li><a data-goto=".title_list0" href="#" class="menu__link">Главная</a></li>
+               <li><a data-goto=".title_list1" href="#" class="menu__link">Достопримечательности</a></li>
+               <li><a data-goto=".title_list2" href="#" class="menu__link">Туры</a></li>
+               <li><a data-goto=".title_list3" href="#" class="menu__link">Контакты</a></li>
             </ul>
          </nav>
          <div class="header__menu-button">
             <span></span>
          </div>
-      </div>
+      </header>
       <div class="welcome-section__text">
          <h1 class="welcome-section__title">ХАКАСИЯ</h1>
          <h5 class="welcome-section__subtitle">Туристическое Агренство Республики Хакасия</h5>
       </div>
-      <button class="welcome-section__arrow">
-         <img src="/img/line1.svg" alt="" class="welcome-section__line1">
-         <img src="/img/line2.svg" alt="" class="welcome-section__line2">
-      </button>
-   </div>
+      <div class="welcome-section__trajectory-arrow">
+         <button id="arrow" class="welcome-section__arrow">
+            <img src="/img/line1.svg" alt="" class="welcome-section__line1">
+            <img src="/img/line2.svg" alt="" class="welcome-section__line2">
+         </button>
+      </div>
+   </header>
+   <ul class="title_list">
+      <li id="title_list2" class="title_list1" >Достопримечательности</li>
+      <li id="title_list3" class="title_list2">Туры</li>
+      <li id="title_list4" class="title_list3">Контакты</li>
+   </ul>
    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
