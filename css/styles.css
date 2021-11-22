@@ -31,7 +31,7 @@
   margin-top: 5vh;
 }
 
-.block__img {
+.sight-block__img {
   width: 90vw;
   height: auto;
   border-radius: 5vw;
@@ -49,7 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: url("../img/tours.svg") 0 0 / cover no-repeat;
+  background: url("../img/tours.jpg") 0 0 / cover no-repeat;
   height: 80vw;
   justify-content: flex-end;
   margin-bottom: 4vh;
@@ -123,8 +123,13 @@
   font-style: normal;
   font-weight: normal;
   color: #9f9f9f;
-  font-size: 3vw;
+  font-size: 4vw;
   margin-bottom: 2vh;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden; 
 }
 
 .contacts {
@@ -149,26 +154,36 @@
   justify-content: space-between;
 }
 
-.connect__text {
+.connect__list {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 3vw;
+  text-decoration: none;
 }
 
-.connect__iсon1 {
-  width: 4vw;
-  margin-bottom: 7vw;
+.connect__text {
+  font-family: Roboto;
+  list-style: none;
+  font-size: 1.5vh;
+  padding-left: 80px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
-.connect__iсon2 {
-  width: 4vw;
-  margin-bottom: 7vw;
+.connect__text_icon1 {
+  background: url("../img/contacts-place.svg") left no-repeat;
+  background-size: 40px 40px;;
 }
 
-.connect__iсon3 {
-  width: 4vw;
-  margin-bottom: 3vw;
+.connect__text_icon2 {
+  background: url("../img/contacts-phone.svg") left no-repeat;
+  background-size: 40px 40px;;
+}
+
+.connect__text_icon3 {
+  background: url("../img/contacts-email.svg") left no-repeat;
+  background-size: 40px 40px;;
 }
 
 .connect__map {
@@ -192,13 +207,13 @@
   margin-left: 3vw;
 }
 
-.block {
+.sight-block {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.block__title {
+.sight-block__title {
   font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
@@ -209,7 +224,7 @@
   font-size: 5vw;
 }
 
-.block__description {
+.sight-block__description {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -293,6 +308,7 @@ body._lock {
 .welcome-section__subtitle {
   font-family: Roboto;
   font-style: normal;
+  font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
   font-size: 3vw;
 }
@@ -433,16 +449,6 @@ body._lock {
   .menu._active {
     top: 0%;
   }
-  /*.menu__body._active::before{
-        z-index: 2;
-        content: "";
-        position: fixed;
-        width: 100%;
-        top:0;
-        left: 0;
-        height: 9%;
-        background-color: rgba(0, 0, 0, 0.9);
-    }*/
 
   .menu__list > li {
     display: flex;
