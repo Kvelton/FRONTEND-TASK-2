@@ -8,8 +8,10 @@ if (buttonMenu) {
         menuBody.classList.toggle('_active');
     })
 }
-const header = document.querySelector('.header');
-window.addEventListener('scroll', function () {
+
+window.addEventListener('scroll', handleWindowScroll ); 
+function handleWindowScroll(){
+    const header = document.querySelector('.header');
     if (header) {
         let scrolled = window.pageYOffset;
         if (scrolled >= 10) {
@@ -19,8 +21,7 @@ window.addEventListener('scroll', function () {
             header.classList.remove('_active');
         }
     };
-})
-
+}
 
 const title_list1 = document.querySelector('.sightseens');
 const arrow = document.querySelector('.welcome-section__arrow');
