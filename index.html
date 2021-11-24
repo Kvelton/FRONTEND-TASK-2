@@ -11,6 +11,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+   <script src="js/app.js"></script>
 </head>
 
 <body>
@@ -35,8 +36,12 @@
       </div>
       <div class="welcome-section__trajectory-arrow">
          <button id="arrow" class="welcome-section__arrow">
-            <img src="/img/line1.svg" alt="1 часть стрелки" class="welcome-section__line1">
-            <img src="/img/line2.svg" alt="2 часть стрелки" class="welcome-section__line2">
+            <svg class="welcome-section__line1" alt="1 часть стрелки">
+               <use xlink:href="/img/sprite.svg#line1"></use>
+            </svg>
+            <svg class="welcome-section__line2" alt="2 часть стрелки">
+               <use xlink:href="/img/sprite.svg#line2"></use>
+            </svg>
          </button>
       </div>
    </header>
@@ -120,7 +125,6 @@
    <footer class="footer">
       <p class="footer__text">Официальный сайт Агенства Туризма Республики Хакасия © 2021</p>
    </footer>
-   <script src="js/app.js"></script>
 </body>
 
 </html>

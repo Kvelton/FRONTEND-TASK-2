@@ -126,10 +126,10 @@
   font-size: 4vw;
   margin-bottom: 2vh;
   background-color: Transparent;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   border: none;
-  cursor:pointer;
-  overflow: hidden; 
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .contacts {
@@ -172,18 +172,18 @@
 }
 
 .connect__text_icon1 {
-  background: url("../img/contacts-place.svg") left no-repeat;
-  background-size: 40px 40px;;
+  background: url("../img/sprite.svg#contacts-place") left no-repeat;
+  background-size: 40px 40px;
 }
 
 .connect__text_icon2 {
-  background: url("../img/contacts-phone.svg") left no-repeat;
-  background-size: 40px 40px;;
+  background: url("../img/sprite.svg#contacts-phone") left no-repeat;
+  background-size: 40px 40px;
 }
 
 .connect__text_icon3 {
-  background: url("../img/contacts-email.svg") left no-repeat;
-  background-size: 40px 40px;;
+  background: url("../img/sprite.svg#contacts-email") left no-repeat;
+  background-size: 40px 40px;
 }
 
 .connect__map {
@@ -274,7 +274,7 @@ body._lock {
   width: 10vw;
   height: 10vw;
   z-index: 5;
-  background: url("/img/logo.svg") 0 0 / 100% 100%  no-repeat;;
+  background: url("/img/sprite.svg#logo") 0 0 / 100% 100% no-repeat;
 }
 
 .header__menu-button {
@@ -312,7 +312,7 @@ body._lock {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
   font-size: 3vw;
-  text-align: center
+  text-align: center;
 }
 
 .welcome-section__trajectory-arrow {
