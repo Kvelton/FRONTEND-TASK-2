@@ -55,6 +55,20 @@
   margin-bottom: 4vh;
 }
 
+.tours-block--hidden {
+  display: none;
+}
+
+.tours-block--hidden-visible .tours-block--hidden {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: url("../img/tours.jpg") 0 0 / cover no-repeat;
+  height: 80vw;
+  justify-content: flex-end;
+  margin-bottom: 4vh;
+}
+
 .tours-block__title {
   font-family: "Roboto";
   font-style: normal;
