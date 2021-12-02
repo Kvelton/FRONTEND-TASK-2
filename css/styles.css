@@ -110,7 +110,7 @@
 
 .tours-block__button {
   width: 25vw;
-  height: 8vh;
+  height: 13vw;
   border: 0.3vw solid #c3b182;
   flex: none;
   order: 0;
@@ -186,17 +186,17 @@
 }
 
 .connect__text_icon1 {
-  background: url("../img/sprite.svg#contacts-place") left no-repeat;
-  background-size: 40px 40px;
+  background: url("../img/icon_place.png") left no-repeat;
+  background-size: 40px 55px;
 }
 
 .connect__text_icon2 {
-  background: url("../img/sprite.svg#contacts-phone") left no-repeat;
+  background: url('../img/icon_phone.png') left no-repeat;
   background-size: 40px 40px;
 }
 
 .connect__text_icon3 {
-  background: url("../img/sprite.svg#contacts-email") left no-repeat;
+  background: url("../img/icon_email.png") left no-repeat;
   background-size: 40px 40px;
 }
 
@@ -288,7 +288,7 @@ body._lock {
   width: 10vw;
   height: 10vw;
   z-index: 5;
-  background: url("/img/sprite.svg#logo") 0 0 / 100% 100% no-repeat;
+  background: url("/img/logo.png") 0 0 / 100% 100% no-repeat;
 }
 
 .header__menu-button {
