@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="line1" viewBox="0 0 24 24">
+        <line x1="0.353553" y1="0.646447" x2="22.981" y2="23.2739" stroke="white"/>
+        <line x1="0.353553" y1="0.646447" x2="22.981" y2="23.2739" stroke="white"/>
+    </symbol>
+
+    <symbol id="line2" viewBox="0 0 24 24">
+        <line x1="0.646447" y1="23.2739" x2="23.2739" y2="0.646471" stroke="white"/>
+        <line x1="0.646447" y1="23.2739" x2="23.2739" y2="0.646471" stroke="white"/>
+    </symbol>
+</svg>
