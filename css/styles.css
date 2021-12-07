@@ -317,7 +317,7 @@ body._lock {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.8);
   font-size: 20vw;
-  margin-bottom: -4vw;
+  margin-bottom: -40px;
 }
 
 .welcome-section__subtitle {
@@ -479,4 +479,121 @@ body._lock {
     text-decoration: none;
     text-align: center;
   }
+}
+
+@media (min-width: 70vh) {
+  .header{
+    position:absolute;
+  }
+
+  .welcome-section{
+    
+    background: url(../img/background_desktop.png) 0 0/cover no-repeat;
+    height: 1100px;
+  }
+
+  .header__logo {
+    transform: translate3d(120px, 40px, 0);
+    width: 80px;
+    height: 72px;
+    z-index: 5;
+    background: url("/img/logo.png") 0 0 / 100% 100% no-repeat;
+  }
+
+  .welcome-section__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 380px 0 0 0;
+  }
+  
+  .welcome-section__title {
+    font-size: 120px;
+  }
+  
+  .welcome-section__subtitle {
+    margin: 40px 0 0 0;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .header__menu-button {
+    display: none;
+  }
+
+  .welcome-section__trajectory-arrow{
+    height: 210px;
+  }
+
+  .welcome-section__line1 {
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+    margin-right: -6px;
+  }
+  
+  .welcome-section__line2 {
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+  }
+
+  .menu__list{
+    margin: 60px 80px 0 0;
+  }
+
+  .menu__item{
+    display: inline;
+  }
+  .menu__link{
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    text-align: center;
+    margin: 0 30px 0 0;
+  }
+
+  .menu__main-item{
+    text-decoration: underline;
+  }
+
+  .sightseens{
+    background:#E5E5E5;
+  }
+  .sightseens__title{
+    font-size: 50px;
+    margin: 120px 0 60px 0;
+  }
+  .sight-block{
+    flex-direction: row;
+    margin: 0 0 70px 0;
+  }
+  .sight-block:nth-child(odd){
+    flex-direction:row-reverse;
+  }
+  .sight-block__img{
+    width: 420px;
+    height: auto;
+    border-radius: 50px;
+    margin: 0 0 0 0;
+  }
+
+  .sight-block__title{
+    font-size: 28px;
+    margin: 0 0 0 20px;
+  }
+
+  .sight-block__description{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    width: 680px;
+    margin: 20px 200px 0 20px;
+  }
+  .sight-block__text{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 100px 0 0;
+  }
+
 }
