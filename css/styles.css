@@ -191,7 +191,7 @@
 }
 
 .connect__text_icon2 {
-  background: url('../img/icon_phone.png') left no-repeat;
+  background: url("../img/icon_phone.png") left no-repeat;
   background-size: 40px 40px;
 }
 
@@ -482,13 +482,12 @@ body._lock {
 }
 
 @media (min-width: 70vh) {
-  .header{
-    position:absolute;
+  .header {
+    position: absolute;
   }
 
-  .welcome-section{
-    
-    background: url(../img/background_desktop.png) 0 0/cover no-repeat;
+  .welcome-section {
+    background: url(../img/background_desktop.png) 0 0 / cover no-repeat;
     height: 1100px;
   }
 
@@ -506,11 +505,11 @@ body._lock {
     align-items: center;
     margin: 380px 0 0 0;
   }
-  
+
   .welcome-section__title {
     font-size: 120px;
   }
-  
+
   .welcome-section__subtitle {
     margin: 40px 0 0 0;
     font-size: 16px;
@@ -520,7 +519,7 @@ body._lock {
     display: none;
   }
 
-  .welcome-section__trajectory-arrow{
+  .welcome-section__trajectory-arrow {
     height: 210px;
   }
 
@@ -530,21 +529,21 @@ body._lock {
     width: 30px;
     margin-right: -6px;
   }
-  
+
   .welcome-section__line2 {
     z-index: 1;
     height: 30px;
     width: 30px;
   }
 
-  .menu__list{
+  .menu__list {
     margin: 60px 80px 0 0;
   }
 
-  .menu__item{
+  .menu__item {
     display: inline;
   }
-  .menu__link{
+  .menu__link {
     font-family: Roboto;
     color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
@@ -552,48 +551,209 @@ body._lock {
     margin: 0 30px 0 0;
   }
 
-  .menu__main-item{
+  .menu__main-item {
     text-decoration: underline;
   }
 
-  .sightseens{
-    background:#E5E5E5;
+  .sightseens {
+    background: #e5e5e5;
   }
-  .sightseens__title{
+  .sightseens__title {
     font-size: 50px;
     margin: 120px 0 60px 0;
   }
-  .sight-block{
+  .sight-block {
     flex-direction: row;
     margin: 0 0 70px 0;
   }
-  .sight-block:nth-child(odd){
-    flex-direction:row-reverse;
+  .sight-block:nth-child(odd) {
+    flex-direction: row-reverse;
   }
-  .sight-block__img{
+  .sight-block__img {
     width: 420px;
     height: auto;
     border-radius: 50px;
     margin: 0 0 0 0;
   }
 
-  .sight-block__title{
+  .sight-block__title {
     font-size: 28px;
     margin: 0 0 0 20px;
   }
 
-  .sight-block__description{
+  .sight-block__description {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     width: 680px;
     margin: 20px 200px 0 20px;
   }
-  .sight-block__text{
+  .sight-block__text {
     display: flex;
     flex-direction: column;
     width: 700px;
     margin: 0 100px 0 0;
   }
 
+  .tours__title {
+    font-size: 50px;
+    margin: 80px 0 60px 0;
+  }
+
+  .touts__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    justify-content: center;
+    margin: 0 0 50px 0;
+  }
+
+  .tours-block {
+    height: 400px;
+    width: 400px;
+    margin: 0 10px 0 10px;
+  }
+
+  .tours-block__gradient {
+    height: 180px;
+    width: 400px;
+  }
+
+  .tours-block__title {
+    font-size: 18px;
+    margin: 0 0 0 30px;
+  }
+
+  .tours-block__description {
+    width: 350px;
+    font-size: 14px;
+    margin: 20px 0 0 30px;
+  }
+
+  .tours-block__price-button {
+    height: 100px;
+    width: 400px;
+    margin: 0 0 0 0;
+  }
+
+  .tours-block__price {
+    font-size: 24px;
+    margin: 0 0 0 30px;
+  }
+
+  .tours-block__button {
+    font-size: 14px;
+    font-weight: 500;
+    height: 50px;
+    width: 100px;
+    border: 1.5px solid #c3b182;
+    margin: 0 20px 0 0;
+  }
+
+  .tours-block--hidden {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: url("../img/tours.jpg") 0 0 / cover no-repeat;
+    height: 400px;
+    width: 400px;
+    justify-content: flex-end;
+    margin-bottom: 4vh;
+  }
+
+  .tours-subtext {
+    display: none;
+  }
+
+  .contacts {
+    background: #e5e5e5;
+  }
+  .connect {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 0 0;
+  }
+  .contacts__title {
+    font-size: 60px;
+  }
+
+  .connect__text {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 25px;
+  }
+
+  .connect__list {
+    margin: 20px 10px 120px 50px;
+  }
+
+  .connect__text_icon1 {
+    background-size: 14px 20px;
+    width: 350px;
+  }
+
+  .connect__text_icon2 {
+    background-size: 20px 20px;
+  }
+
+  .connect__text_icon3 {
+    background-size: 20px 20px;
+  }
+
+  .connect__map {
+    width: 800px;
+    height: 400px;
+    margin: 0 0 80px 0;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #242424;
+    align-items: flex-start;
+    height: 300px;
+    justify-content: space-around;
+  }
+
+  .footer-menu {
+  }
+
+  .footer-menu__title {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 40px 0 0 150px;
+  }
+
+  .footer-menu__list {
+  }
+
+  .footer-menu__item {
+    display: block;
+    font-weight: 100;
+    margin: 0 0 10px 110px;
+  }
+
+  .footer-contacts__title {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 40px 0 40px 40px;
+  }
+
+  .footer-contacts__text {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 100;
+    color: #e1e1e1;
+    margin: 0 0 0 40px;
+    width: 500px;
+  }
+  .footer__text {
+    font-size: 14px;
+    font-weight: 100;
+    margin: 40px 0 0 40px;
+  }
 }
