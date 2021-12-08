@@ -481,7 +481,7 @@ body._lock {
   }
 }
 
-@media (min-width: 70vh) {
+@media (min-width: 1280px) { 
   .header {
     position: absolute;
   }
